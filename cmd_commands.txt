@@ -1,0 +1,22 @@
+
+-------Command to run inference without saving anything-------
+
+python3 detect.py --weights runs/train/exp/weights/best.pt --img 640 --nosave --view-img --source dataset/video/
+
+
+
+-------Command to run inference and saving video-----------
+
+python3 detect.py --weights runs/train/exp/weights/best.pt --img 640 --source dataset/video/
+
+
+C:\Users\Farabi\Desktop\yolo project\yolov5-master\yolov5-master>python detect.py --weights runs/train/exp3/exp3/weights/best.pt --img 640 --source dataset/video/"laptop video"
+
+
+
+runs/train/exp3/exp3/weights/best.pt
+
+FINAL COMMAND
+
+
+python detect.py --weights runs/train/exp3/exp3/weights/best.pt --img 640 --nosave --view-img --source dataset/"laptop video"/
